@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="565d99d142af4ce19c062dc57eecf389" Name="Diagram1">
+        <EntityTypeShape EntityType="Community_AssistModel.Contact" Width="1.5" PointX="3" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.GrantRequest" Width="1.5" PointX="3" PointY="4" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.GrantReview" Width="1.5" PointX="5.25" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.Person" Width="1.5" PointX="0.75" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Community_AssistModel.PersonAddress" Width="1.5" PointX="3" PointY="7.25" IsExpanded="true" />
+        <AssociationConnector Association="Community_AssistModel.FK__Contact__PersonK__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRequ__Perso__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__GrantRevi__Grant__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="Community_AssistModel.FK__PersonAdd__Perso__4E88ABD4" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
